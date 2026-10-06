@@ -34,8 +34,6 @@
     <Folder Include="Integrations\" />
     <Folder Include="MCP\" />
     <Folder Include="Memory\" />
-    <Folder Include="Middleware\" />
-    <Folder Include="Models\" />
     <Folder Include="Monitoring\" />
     <Folder Include="obj\Debug\net10.0\refint\" />
     <Folder Include="obj\Debug\net10.0\ref\" />
@@ -44,7 +42,6 @@
     <Folder Include="Prompts\" />
     <Folder Include="RAG\" />
     <Folder Include="Security\" />
-    <Folder Include="Services\" />
     <Folder Include="Tools\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
