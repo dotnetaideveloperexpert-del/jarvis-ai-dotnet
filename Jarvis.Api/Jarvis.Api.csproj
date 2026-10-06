@@ -1,0 +1,62 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net10.0\Jarvis.Api.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net10.0\Jarvis.Api.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\Debug\net10.0\rpswa.dswa.cache.json" />
+    <Content Include="obj\Debug\net10.0\staticwebassets.removed.txt" />
+    <Content Include="obj\Jarvis.Api.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.11" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Agent\" />
+    <Folder Include="AI\" />
+    <Folder Include="bin\Debug\net10.0\" />
+    <Folder Include="Data\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Infrastructure\" />
+    <Folder Include="Integrations\" />
+    <Folder Include="MCP\" />
+    <Folder Include="Memory\" />
+    <Folder Include="Middleware\" />
+    <Folder Include="Models\" />
+    <Folder Include="Monitoring\" />
+    <Folder Include="obj\Debug\net10.0\refint\" />
+    <Folder Include="obj\Debug\net10.0\ref\" />
+    <Folder Include="obj\Debug\net10.0\staticwebassets\" />
+    <Folder Include="Plugins\" />
+    <Folder Include="Prompts\" />
+    <Folder Include="RAG\" />
+    <Folder Include="Security\" />
+    <Folder Include="Services\" />
+    <Folder Include="Tools\" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\Debug\net10.0\Jarvis.Api.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net10.0\Jarvis.Api.assets.cache" />
+    <None Include="obj\Debug\net10.0\Jarvis.Api.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net10.0\Jarvis.Api.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Jarvis.Api.csproj.nuget.g.props" />
+    <None Include="obj\Jarvis.Api.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+</Project>
